@@ -1,0 +1,146 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.login-container {
+    width: 100%;
+    max-width: 450px;
+    margin: 100px auto;
+    padding: 20px;
+    background-image: linear-gradient(rgb(81, 82, 142),rgb(17, 17, 17)) ;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    text-align: left;
+    border-radius: 20px;
+    
+}
+
+.login-container h1 {
+    margin-bottom: 20px;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #f4f4f4;
+}
+
+.login-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #fbfafa;
+    border-radius: 5px;
+}
+
+.login-form button {
+    padding: 10px 20px;
+    background-image: linear-gradient(yellow,black);
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar {
+    background-image: linear-gradient(rgb(247, 8, 8),black);
+    color: #fff;
+    padding: 30px;
+    text-align: left;
+}
+
+.navbar h1 {
+    display: inline;
+    
+}
+
+.navbar ul {
+    list-style: none;
+    padding: 0;
+    display: inline;
+    
+}
+
+.navbar ul li {
+    display: inline;
+    margin: 0 10px;
+
+}
+
+.navbar ul li a {
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.gallery, .complaint-form {
+    padding: 20px;
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    background-image: linear-gradient(rgb(11, 52, 102),rgb(84, 54, 54));
+
+}
+
+.gallery h2, .complaint-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #f4f4f4;
+    
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.images img {
+    max-width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.complaint-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #f4f4f4;
+    
+}
+
+.complaint-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+.complaint-form button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-image: linear-gradient(rgb(20, 46, 243),black);
+
+}
+
+@media (max-width: 768px) {
+    .images img {
+        max-width: 100%;
+    }
+}
